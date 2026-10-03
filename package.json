@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-cms-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:frontend": "vite --host 127.0.0.1",
+    "dev:backend": ".venv/bin/python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --reload",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "gsap": "^3.15.0",
+    "lucide-react": "0.468.0",
+    "motion": "^13.4.4",
+    "ogl": "^1.0.11",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "4.5.14"
+  }
+}

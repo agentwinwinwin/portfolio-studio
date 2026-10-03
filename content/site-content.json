@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 6,
+  "articles": [],
+  "projects": [],
+  "photos": [],
+  "materials": [],
+  "materialGroups": [
+    {
+      "id": "seed-material-group-01",
+      "name": "示例素材",
+      "createdAt": ""
+    }
+  ]
+}
