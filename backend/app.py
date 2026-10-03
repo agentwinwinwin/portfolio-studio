@@ -24,7 +24,7 @@ COOKIE_SECURE = os.getenv('COOKIE_SECURE', '').lower() in {'1', 'true', 'yes'}
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
-app = FastAPI(title='Portfolio CMS API', version='1.0.0')
+app = FastAPI(title='Portfolio Studio API', version='1.0.0')
 app.mount('/api/media', StaticFiles(directory=UPLOAD_DIR), name='media')
 
 
