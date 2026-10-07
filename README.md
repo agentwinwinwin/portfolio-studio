@@ -6,59 +6,6 @@ Portfolio Studio 将公开展示页面与内容管理后台放在同一个项目
 
 项目使用 **React + Vite** 构建界面，**FastAPI** 提供内容与认证接口，**SQLite** 保存结构化数据。前后端通过 `/api` 通信，开发时可以用一个命令同时启动。
 
-## 完整主页功能展示（已打码）
-
-以下为完整版主页在本地临时环境中的运行截图：个人信息与原始图片已作不透明遮挡，项目、文章、相册及素材使用临时示例内容。仅提交处理后的截图，不提交原始截图、个人数据或私人素材。当前公开源码使用通用首页，下方“公开版本运行截图”展示其实际界面；本节展示完整版主页的布局与交互模块。
-
-### 全屏 Hero、导航与联系入口
-
-![完整主页 Hero（已打码）](docs/screenshots/full-home-hero.jpg)
-
-### 精选项目大卡片
-
-![精选项目展示（临时示例）](docs/screenshots/full-home-projects.jpg)
-
-<details>
-<summary>展开查看介绍区、文章、相册、素材轮播与收尾页</summary>
-
-### 介绍区与资料卡片
-
-![介绍区（个人信息已遮挡）](docs/screenshots/full-home-profile.jpg)
-
-### 文章归档
-
-![文章归档（临时示例）](docs/screenshots/full-home-articles.jpg)
-
-### 堆叠相册
-
-![堆叠相册（生成的示例图片）](docs/screenshots/full-home-gallery.jpg)
-
-### 分组素材轮播
-
-![素材轮播（生成的示例图片）](docs/screenshots/full-home-materials.jpg)
-
-### 整屏联系收尾
-
-![联系收尾（联系方式已遮挡）](docs/screenshots/full-home-contact.jpg)
-
-</details>
-
-## 公开版本运行截图
-
-以下图片来自本地实际运行的公开版本，使用临时示例项目和文章；演示数据库、账号及凭据不随仓库分发。首次安装仍以空内容启动。
-
-### 首页：项目展示与文章归档
-
-![首页运行效果](docs/screenshots/home.jpg)
-
-### 内容管理：项目列表
-
-![项目管理后台](docs/screenshots/dashboard.jpg)
-
-### Markdown 编辑器：正文编辑与实时预览
-
-![Markdown 图文编辑器](docs/screenshots/editor.jpg)
-
 ## 项目解决什么问题
 
 静态作品集往往需要修改代码才能更新项目和文章；完整博客平台又可能超出个人站点的维护需求。本项目提供一套较轻量的工作流程：在开发者控制台填写内容，保存到数据库，再由公开页面读取并展示。图片由后端处理后保存到磁盘，内容与界面代码可以分别维护。
